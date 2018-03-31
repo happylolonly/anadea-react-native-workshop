@@ -1,10 +1,9 @@
 import React from 'react';
-import { Text, View, Button } from 'react-native';
+import { Text, View, Button, StyleSheet } from 'react-native';
 
 import styled from 'styled-components';
 
 const StyledView = styled.View`
-  text-align: center;
   width: 60%;
   margin: 10px auto;
 `;
@@ -22,17 +21,16 @@ const Welcome = ({ navigation }) => {
 
     const handleClick = () => {
         navigation.navigate('List');
-
     }
 
 
     return (
-        <StyledView>
+        <StyledView style={styles.container}>
             <Text>Hello!</Text>
-            <Text>Welcome to my cool React Native app!</Text>
+            <Text style={{ textAlign: 'center' }}>Welcome to my cool React Native app!</Text>
             <Button style={ {marginTop: 150 }}
             onPress={handleClick} 
-            title="Go to Events" />                
+            title="Go to Events" />
         </StyledView>
     )
     
@@ -41,6 +39,14 @@ const Welcome = ({ navigation }) => {
 Welcome.navigationOptions = {
     headerTitle: 'Events',
 };
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  });
 
 
 export default Welcome;

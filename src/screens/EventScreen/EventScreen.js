@@ -48,17 +48,18 @@ class EventScreen extends Component {
     }
 
     render() {
-        const { title, address, start_time, finish_time, start_date, fihish_date, hero_image_url } = this.state.event;
-        
+        const { title, address, start_time, finish_time, start_date, finish_date, hero_image_url } = this.state.event;
+
         return (
             <View>
                 <Event
                     title={title}
                     startDate={start_date}
                     startTime={start_time}
-                    fihishDate={fihish_date}
+                    finishDate={finish_date}
                     finishTime={finish_time}
                     image={hero_image_url}
+                    address={address}
 
                     navigation={this.props.navigation}
                 />
