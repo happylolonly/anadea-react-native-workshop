@@ -1,0 +1,112 @@
+[
+	{
+		"_id": "5abb8903293c076ea7a1e750",
+		"uri": "/management-3-0-practical-course-for-leaders-and-facilitators--2",
+		"title": "Management 3.0 - Practical Course for leaders and facilitators",
+		"address": "Минск, ул Октябрьская 16а к3 ",
+		"start_time": "10:00",
+		"finish_time": "18:00",
+		"start_date": "2018-03-29T21:00:00.000Z",
+		"finish_date": "2018-03-30T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb8905293c076ea7a1e754",
+		"uri": "/js-workshop-tupichok-programmista",
+		"title": "JS Workshop «Тупичок программиста»",
+		"address": "Минск, Ольшевского 20/11",
+		"start_time": "10:00",
+		"finish_time": "14:30",
+		"start_date": "2018-03-30T21:00:00.000Z",
+		"finish_date": "2018-03-30T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb8907293c076ea7a1e755",
+		"uri": "/frontspot-hackathon",
+		"title": "FrontSpot HACKATHON",
+		"address": "Минск, ул. Ак.Купревича 3B",
+		"start_time": "10:00",
+		"finish_time": "20:00",
+		"start_date": "2018-03-30T21:00:00.000Z",
+		"finish_date": "2018-03-31T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb8907293c076ea7a1e756",
+		"uri": "/mitcon-2018-look-it-s-everywhere",
+		"title": "MITCon’ 2018. Look IT’s everywhere.",
+		"address": "Могилев, пр-т Пушкинский, 6, гостиница «Турист»",
+		"start_time": "10:00",
+		"finish_time": "17:00",
+		"start_date": "2018-03-30T21:00:00.000Z",
+		"finish_date": "2018-03-30T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb8908293c076ea7a1e758",
+		"uri": "/trening-leading-safe-4-5--2",
+		"title": "Тренинг Leading SAFe 4.5",
+		"address": "Минск, ул. Октябрьская, 16/3",
+		"start_time": "10:00",
+		"finish_time": "18:00",
+		"start_date": "2018-03-31T21:00:00.000Z",
+		"finish_date": "2018-04-01T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb890c293c076ea7a1e75d",
+		"uri": "/it-spring-conference-2018",
+		"title": "IT Spring 2018 – международная конференция об IT-бизнесе",
+		"address": "Минск, проспект Победителей, 20",
+		"start_time": "10:00",
+		"finish_time": "20:00",
+		"start_date": "2018-04-04T21:00:00.000Z",
+		"finish_date": "2018-04-04T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb8914293c076ea7a1e761",
+		"uri": "/trening-agile-team-facilitation-icp-atf",
+		"title": "Тренинг Agile Team Facilitation (ICP-ATF)",
+		"address": "Минск, ул. Октябрьская, 16/3",
+		"start_time": "10:00",
+		"finish_time": "18:00",
+		"start_date": "2018-04-07T21:00:00.000Z",
+		"finish_date": "2018-04-08T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb8915293c076ea7a1e764",
+		"uri": "/testingstage-18-konferentsiya-dlya-professionalov-v-testirovanii",
+		"title": "TestingStage’18 — конференция для профессионалов в тестировании",
+		"address": "Киев, Киев",
+		"start_time": "10:00",
+		"finish_time": "18:00",
+		"start_date": "2018-04-12T21:00:00.000Z",
+		"finish_date": "2018-04-13T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb891d293c076ea7a1e76c",
+		"uri": "/trening-professional-scrum-master--2",
+		"title": "Тренинг Professional Scrum Master",
+		"address": "Минск, Проспект Победителей 20, Минск Марриотт Отель",
+		"start_time": "10:00",
+		"finish_time": "18:00",
+		"start_date": "2018-05-06T21:00:00.000Z",
+		"finish_date": "2018-05-07T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	},
+	{
+		"_id": "5abb891f293c076ea7a1e76d",
+		"uri": "/trening-agile-project-management-icp-apm--2",
+		"title": "Тренинг Agile Project Management (ICP-APM)",
+		"address": "Минск, Минск",
+		"start_time": "10:00",
+		"finish_time": "18:00",
+		"start_date": "2018-05-11T21:00:00.000Z",
+		"finish_date": "2018-05-12T21:00:00.000Z",
+		"hero_image_url": "https://picsum.photos/600/400"
+	}
+]

@@ -3,7 +3,9 @@ import { Text, View } from 'react-native';
 
 import Event from './Event/Event';
 
+
 import axios from 'axios';
+import stub from '../../stub.json';
 
 
 class EventScreen extends Component {
@@ -24,13 +26,25 @@ class EventScreen extends Component {
     }
 
     async loadEvent() {
-        const events = await axios.get('https://3ebbf85c.ngrok.io/events');
 
         const { id } = this.props.navigation.state.params;
 
-        const data = events.data.filter(item => item._id === id );
 
-        this.setState({ event: data[0] });
+        try {
+            const events = await axios.get('https://3ebbf85c.ngrok.io/events');
+
+
+            const data = events.data.filter(item => item._id === id );
+
+            this.setState({ event: data[0] });
+
+        } catch (e) {
+
+            const data = stub.filter(item => item._id === id );
+
+            this.setState({ event: data[0] });
+        }
+        
     }
 
     render() {

@@ -3,7 +3,9 @@ import { Text, View, FlatList } from 'react-native';
 
 import axios from 'axios';
 
-import ListItem from './ListItem/ListItem'
+import ListItem from './ListItem/ListItem';
+
+import stub from '../../stub.json';
 
 class List extends Component {
     static navigationOptions = {
@@ -34,7 +36,8 @@ class List extends Component {
             this.setState({ events: events.data });
 
         } catch (e) {
-            this.setState({ error: JSON.stringify(e) });
+            // this.setState({ error: JSON.stringify(e) });
+            this.setState({ events: stub });
         }
     }
 
