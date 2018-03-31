@@ -1,5 +1,16 @@
 {
   "expo": {
-    "sdkVersion": "26.0.0"
+   "name": "My first React Native app",
+   "icon": "./images/icon.png",
+   "version": "1.0.0",
+   "slug": "your-app-slug",
+   "sdkVersion": "26.0.0",
+   "ios": {
+     "bundleIdentifier": "com.happylol.mycoolapp"
+   },
+   "android": {
+     "package": "com.happylol.mycoolapp",
+     "permissions": []
+   }
   }
 }
