@@ -2,7 +2,7 @@
   "expo": {
    "name": "My first React Native app",
    "icon": "./images/icon.png",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "slug": "your-app-slug",
    "sdkVersion": "26.0.0",
    "ios": {
@@ -10,7 +10,8 @@
    },
    "android": {
      "package": "com.happylol.mycoolapp",
-     "permissions": []
+     "permissions": [],
+     "versionCode": 2
    }
   }
 }
